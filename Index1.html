@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1108123423.js" crossorigin="anonymous"></script>
+     
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p>Frontend Developer</p>
+            <h1>Hi, I'm <span>Jaishree R</span><br>From India</h1>
+        </div>
+    </div>
+</div>
+<div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                </br></br></br></br></br></br></br><img src="images/user.png"><br><br><br><br> 
+            </div>
+            <div class="about-col-2">
+                &nbsp;
+               <br/><br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h1 class="sub-title">About Me</h1><br>
+               <p style="font-family: serif;font-size: 20px;">I am a second-year student passionate about technology and eager to learn. I have a strong interest in web development and design.With a keen eye for detail and a love for creativity, I specialize in bringing ideas to life through innovative design and development.I believe in the power of collaboration and thrive in environments where teamwork and communication drive success.As a lifelong learner, I am constantly exploring new technologies and techniques to stay at the forefront of my field.
+                My goal is simple: to create meaningful, user-centric solutions that leave a lasting impact.</p></br>
+                <div class="tab-titles">
+        <p class="tab-links active-link" onClick="opentab('skills')" style="font-family: serif;font-size: 30px;"><b>Skills</b></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <p class="tab-links" onClick="opentab('experience')" style="font-family: serif;font-size: 30px;"><b>Experience</b></p>
+         <p class="tab-links" onClick="opentab('education')" style="font-family: serif;font-size: 30px;"><b>Education</b></p>
+                </div>
+             
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span><p class="tab-links active-link" onClick="opentab('python')">PYTHON</p></span><br></li>
+                        <li><span><p class="tab-links active-link" onClick="opentab('c language')">C LANGUAGE</p></span><br></li>
+                        <li><span><p class="tab-links active-link" onClick="opentab('c++')">C++</p></span><br></li>
+                        <li><span><p class="tab-links active-link" onClick="opentab('databasemanagementsystem')">DATA BASE MANAGEMENT SYSTEM</p></span><br></li>
+                        <li><span><p class="tab-links active-link" onClick="opentab('visualbasic.net')">VISUAL BASIC.NET</p></span><br></li>
+                        <li><span><p class="tab-links active-link" onClick="opentab('html&css')">HTML & CSS</p></span><br></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="visualbasic.net" >
+                    <svg viewBox="0 0 36 36" width="200" height="200" >
+                        <!-- Background Circle -->
+                        <path
+                            d="M18 2.0845
+                               a 15.9155 15.9155 0 0 1 0 31.831
+                               a 15.9155 15.9155 0 0 1 0 -31.831"
+                            fill="none"
+                            stroke="#333"
+                            stroke-width="2"
+                        />
+                        <!-- Progress Circle -->
+                        <path
+                            d="M18 2.0845
+                               a 15.9155 15.9155 0 0 1 0 31.831"
+                            fill="none"
+                            stroke="#4caf50"
+                            stroke-width="2"
+                            stroke-dasharray="60, 100"   
+                        />
+                        <!-- Text in the center -->
+                        <text x="18" y="20.35" font-size="5" text-anchor="middle" fill="#ffffff">60%</text>
+                    </svg>
+                     </div>
+                     <div class="tab-contents" id="html&css" >
+                        <svg viewBox="0 0 36 36" width="200" height="200" >
+                            <!-- Background Circle -->
+                            <path
+                                d="M18 2.0845
+                                   a 15.9155 15.9155 0 0 1 0 31.831
+                                   a 15.9155 15.9155 0 0 1 0 -31.831"
+                                fill="none"
+                                stroke="#333"
+                                stroke-width="2"
+                            />
+                            <!-- Progress Circle -->
+                            <path
+                                d="M18 2.0845
+                                   a 15.9155 15.9155 0 0 1 0 31.831"
+                                fill="none"
+                                stroke="#4caf50"
+                                stroke-width="2"
+                                stroke-dasharray="80, 100"   
+                            />
+                            <!-- Text in the center -->
+                            <text x="18" y="20.35" font-size="5" text-anchor="middle" fill="#ffffff">80%</text>
+                        </svg>
+                         </div>
+                <div class="tab-contents" id="databasemanagementsystem" >
+                    <svg viewBox="0 0 36 36" width="200" height="200" >
+                        <!-- Background Circle -->
+                        <path
+                            d="M18 2.0845
+                               a 15.9155 15.9155 0 0 1 0 31.831
+                               a 15.9155 15.9155 0 0 1 0 -31.831"
+                            fill="none"
+                            stroke="#333"
+                            stroke-width="2"
+                        />
+                        <!-- Progress Circle -->
+                        <path
+                            d="M18 2.0845
+                               a 15.9155 15.9155 0 0 1 0 31.831"
+                            fill="none"
+                            stroke="#4caf50"
+                            stroke-width="2"
+                            stroke-dasharray="90, 100"   
+                        />
+                        <!-- Text in the center -->
+                        <text x="18" y="20.35" font-size="5" text-anchor="middle" fill="#ffffff">90%</text>
+                    </svg>
+                    <br>
+                    <a href="/images/dbms.pdf"><p>Certificate of Course</p></a>
+                     </div>
+                
+                <div class="tab-contents" id="c language" >
+                    <svg viewBox="0 0 36 36" width="200" height="200" >
+                        <!-- Background Circle -->
+                        <path
+                            d="M18 2.0845
+                               a 15.9155 15.9155 0 0 1 0 31.831
+                               a 15.9155 15.9155 0 0 1 0 -31.831"
+                            fill="none"
+                            stroke="#333"
+                            stroke-width="2"
+                        />
+                        <!-- Progress Circle -->
+                        <path
+                            d="M18 2.0845
+                               a 15.9155 15.9155 0 0 1 0 31.831"
+                            fill="none"
+                            stroke="#4caf50"
+                            stroke-width="2"
+                            stroke-dasharray="100, 100"   
+                        />
+                        <!-- Text in the center -->
+                        <text x="18" y="20.35" font-size="5" text-anchor="middle" fill="#ffffff">95%</text>
+                    </svg>
+                        <br>
+ 
+                <p><b font-size : 30px>Certificate of Course</b></p><br/>
+                <a href="/images/C INTRO.jpg">Course 1</a>
+            <br/>
+                <br/><a href="/images/C.jpg">Course 2</a>
+                    </div>
+                    
+                    
+                    <div class="tab-contents" id="c++" >
+                        <svg viewBox="0 0 36 36" width="200" height="200">
+                            <!-- Background Circle -->
+                            <path
+                                d="M18 2.0845
+                                   a 15.9155 15.9155 0 0 1 0 31.831
+                                   a 15.9155 15.9155 0 0 1 0 -31.831"
+                                fill="none"
+                                stroke="#333"
+                                stroke-width="2"
+                            />
+                            <!-- Progress Circle -->
+                            <path
+                                d="M18 2.0845
+                                   a 15.9155 15.9155 0 0 1 0 31.831"
+                                fill="none"
+                                stroke="#4caf50"
+                                stroke-width="2"
+                                stroke-dasharray="85, 100"   
+                            />
+                            <!-- Text in the center -->
+                            <text x="18" y="20.35" font-size="5" text-anchor="middle" fill="#ffffff">85%</text>
+                        </svg>
+                        <br>
+                    <p><b font-size : 30px>Certificate of Course</b></p><br/>
+                    <a href="/images/C++ INTERMEDIATE.jpg">Course </a>
+                <br/>
+                    </div>
+                    
+                 <div class="tab-contents" id="python" >
+                    <svg viewBox="0 0 36 36" width="200" height="200">
+                        <!-- Background Circle -->
+                        <path
+                            d="M18 2.0845
+                               a 15.9155 15.9155 0 0 1 0 31.831
+                               a 15.9155 15.9155 0 0 1 0 -31.831"
+                            fill="none"
+                            stroke="#333"
+                            stroke-width="2"
+                        />
+                        <!-- Progress Circle -->
+                        <path
+                            d="M18 2.0845
+                               a 15.9155 15.9155 0 0 1 0 31.831"
+                            fill="none"
+                            stroke="#4caf50"
+                            stroke-width="2"
+                            stroke-dasharray="75, 100"   
+                        />
+                        <!-- Text in the center -->
+                        <text x="18" y="20.35" font-size="5" text-anchor="middle" fill="#ffffff">75%</text>
+                    </svg>
+                    <p><b font-size : 30px>Certificate of Course</b></p>
+                    <a href="/images/PYTHON.jpg">Course </a>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span style="font-family: serif;font-size: 20px;">2023-2024 - Current </br></span><br><p style="font-family: serif;font-size: 20px;">National Engineering College.</p><br/> B.E Computer Sciene and Engineering</li>
+                        <li><span style="font-family: serif;font-size: 20px;"></br><p style="font-family: serif;font-size: 20px;">St.Paul's.Matric.Higher.Secondary.School</p></br>2020 </span><br>SSLC - 92% </li>
+                        <li><span style="font-family: serif;font-size: 20px;">2022</span><br>HSC - 87.3%</li> 
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span style="font-family: serif;font-size: 20px;">Volunteer Experience</br></span><br><p style="font-family: serif;font-size: 20px;">Become an organizer in College Symposium</p></li> 
+                        <li><span style="font-family: serif;font-size: 20px;">NCC Cadet</br></span><br><p style="font-family: serif;font-size: 20px;">Currently I am a second year NCC cadet in my College</p> </li> 
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--------------services------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div> 
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design- Internship </h2>
+                    <p style="font-family: serif;font-size: 20px;">From captivating layouts to seamless navigation, our web design services ensure your online presence reflects the essence of your brand, enticing visitors and converting them into loyal customers</p>
+                     <a href= " https://youtu.be/ULEmq5E-H3Q?si=QOQ9mIR_LLu_Rcgt">Click Here To See the Internship Complete Video</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------portfolio------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Project</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png"/>
+                    <div class="layer">
+                        <h3>Tribute Page</h3>
+                        <p style="font-family: serif;font-size: 20px;">A "Tribute Page" on GitHub is a simple web page or project dedicated to honoring a person, event, or subject.It typically includes a brief biography,notable achievements,and personal reflections or images.Built using HTML,CSS,and optionally JavaScript,these pages showcase fundamental web development skills.It helps learners understand basic web development concepts and GitHub workflows.
+                        </p>
+                        <a href="https://github.com/Jaishree935/Tribute-Page"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/logo.png"/>
+                    <div class="layer">
+                        <h3>Homely Hub</h3>
+                        <p style="font-family: serif;font-size: 20px;">"HomelyHub" is a web application aimed at simplifying the process of finding and renting accommodation for students and young professionals.
+                       The platform serves as a centralized hub where users can search for available rental properties, view detailed listings, and connect with landlords or property managers.
+                        </p>
+                        <a href="https://github.com/Jaishree935/HomelyHub"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png"/>
+                    <div class="layer">
+                        <h3>Simple Calculator</h3>
+                        <p style="font-family: serif;font-size: 20px;"> A "Simple Calculator using Tkinter in Python" is a basic GUI application that performs arithmetic operations like addition, subtraction, multiplication, and division. Built with the Tkinter library, it features a user-friendly interface with buttons for digits and operations, and an entry widget for displaying results. The project involves handling button click events to perform calculations and update the display.                        </p>
+                        <a href="https://github.com/Jaishree935/Simple-calculator-using-python-/blob/main/simple%20calculator%20using%20python"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>     
+                </div>
+            </div>
+            <a href="https://www.guvi.in/blog/full-stack-development-project-ideas/" alt="https://www.computer-science-project.in/" class="btn">See more</a>
+        </div>
+    </div>
+ <!--------------------------contact---------->   
+   <div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+             <h1 class="sub-title">Contact Me </h1>
+             <p><i class="fa-solid fa-paper-plane"></i> jaishreerajendran2005@gmail.com </p>
+             <p><i class="fa-solid fa-square-phone"></i>8778621441</p>
+             <div class="social-icons">
+                <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+             </div>
+             <a href="images/RESUME.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+    <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button> 
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+ <div class="copyright">
+ <p>Copyright @ Jaishree. Made with <i class="fa-solid fa-heart"></i>by Own Way</p>    
+</div>
+   </div>
+    <script> 
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab")
+    }
+    </script>
+  <script> f
+   var sidemenu=document.getElementById("sidemenu");
+   function openmenu(){
+     sidemenu.style.right="0";
+   }
+   function closemenu(){
+     sidemenu.style.right="-200px";
+   }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz-t7NKfFhvq16F369Y4HWFpQS4zkWfRVNqm8VBAGFC5TMPPwkzOIfUGeZepDKkDzA1/exec'
+    const form = document.forms['submit-to-google-sheet']
+   const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML="Message Sent Successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
